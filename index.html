@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Information -->
+  <title>List Component</title>
+  <meta charset="UTF-8" />
+
+  <!-- Viewport Configuration -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- App CSS -->
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/index.css" />
+
+  <!-- External JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script defer src="scripts/list-component.js"></script>
+</head>
+
+<body>
+  <section class="page">
+    <header>
+      <h2>Page of Lists</h2>
+    </header>
+    <main class="list-container">
+      <article class="list-component">
+        <header>Grocery List</header>
+        <ul class="article-list">
+          <input class="list-item" type="text" value="Milk">
+          <input class="list-item" type="text" value="Eggs">
+          <input class="list-item" type="text" value="Bread">
+        </ul>
+      </article>
+      <article class="list-component">
+        <header>Another List</header>
+        <ul class="article-list">
+          <input class="list-item" type="text" value="Item 1">
+          <input class="list-item" type="text" value="Item 2">
+          <input class="list-item" type="text" value="Item 3">
+        </ul>
+      </article>
+    </main>
+  </section>
+</body>
+
+</html>
